@@ -1,6 +1,6 @@
 # Sonia Obasuyi – Developer Portfolio
 
-This is my personal portfolio website built with React, TypeScript, Vite, Tailwind CSS and Framer-Motion. It showcases selected projects, technical skills, and experience as a full-stack developer.
+This is my personal portfolio website built with React, Tailwind CSS and Framer-Motion. It showcases selected projects, technical skills, and experience as a full-stack developer.
 
 ## Project setup
 
