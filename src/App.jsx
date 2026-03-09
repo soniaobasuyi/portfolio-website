@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import useMediaQuery from './hooks/useMediaQuery.jsx';
 import Navbar from './scenes/Navbar.jsx';
 import DotGroup from './scenes/DotGroup.jsx';
+import Landing from "./scenes/Landing.jsx";
 
 const App = () => {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -29,6 +30,8 @@ const App = () => {
         {isAboveMediaScreens && (
           <DotGroup selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         )}
+
+        <Landing setSelectedPage={setSelectedPage} />
       </div>
     </div>
   );
