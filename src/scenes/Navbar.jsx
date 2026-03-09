@@ -6,7 +6,7 @@ import closeIcon from '../assets/close-icon.svg';
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
-  console.log(selectedPage, lowerCasePage);
+
   return (
     <AnchorLink
       className={`${selectedPage === lowerCasePage ? 'text-yellow' : ''} hover:text-yellow transition duration-500`}
