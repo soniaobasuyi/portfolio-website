@@ -67,10 +67,16 @@ const Landing = ({ setSelectedPage }) => {
               Obasuyi
             </span>
           </p>
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I’m Sonia Obasuyi, a full-stack developer focused on building modern web applications
-            that are both functional and scalable.
-          </p>
+
+          <div className="mt-10 mb-7 text-sm text-center md:text-start">
+            <p>
+              I’m Sonia Obasuyi, a full-stack developer focused on building modern web applications
+              that are functional, scalable, and user-focused.
+            </p>
+            <p className='mt-4'>
+              I enjoy designing solutions that bridge user needs with solid engineering.
+            </p>
+          </div>
         </motion.div>
 
         <motion.div
